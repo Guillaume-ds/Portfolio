@@ -47,7 +47,7 @@
 }
 
 .container-projects .card-project:hover .face.face1{
-    background: rgba(30,30,110,0.95);
+    background: rgba(50,50,130,1);
     transform: translateY(0);
 }
 
