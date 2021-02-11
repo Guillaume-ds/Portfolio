@@ -1,0 +1,26 @@
+footer {
+	width: 100%;
+	background-color: rgba(51,51,51,0.8);
+	margin: 0px;
+	margin-bottom: -1px;
+	padding: 0px;
+	width: 100%;
+	font-family: Helvetica; 
+	color: white;
+	text-align: center;
+	padding: 15px;
+	padding-top:30px; 
+	padding-bottom: 50px;
+}
+
+footer h1 {
+	padding-top: 25px;
+	size: 25px;
+}
+.card-foot{
+	width: 100%;
+	display: inline-flex;
+	padding: 10px;
+	justify-content: space-evenly ; 
+	font-size: 20px;
+} 

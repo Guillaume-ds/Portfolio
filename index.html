@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/9267fd29be.js" crossorigin="anonymous"></script>
+	<title>Guillaume de Surville | Portfolio</title>
+</head>
+<body>
+	<header>		
+		<div id="nom">
+			<p >
+				Guillaume de Surville 
+			</p>
+		</div>
+		<ul class="liste-sans-puce">
+			<li>
+				<a href="#about-me">About me</a>
+			</li>
+			<li>
+				<a href="#my-projects">My projects</a>
+			</li>
+			<li>
+				<a href="#contact-me">Contact me</a>
+			</li>
+		</ul>
+	</header>
+
+	<content>
+		<span class="anchor" id="about-me"></span>
+		<div class="card-about-me">
+			<div class="colonne-gauche">
+				<div class="text-60">
+					<h1><strong>ABOUT ME :</strong></h1>
+					<hr class="ligne-bleue">
+					<p> I am a 21 years old student at HEC Paris, in M1. I am looking for an <strong> internship in data science and/or data analysis starting in July 2021 </strong>, in France or abroad.</p>
+					<p>I am passionate about music and sailing and I have praticed both activites for more than 10 years now. I look forward to learn more about data management! </p>
+					<br> 
+					<p class="btn-blue"><a href="media/Guillaume de Surville_CV_EN.pdf"> <strong>My CV : <i class="fas fa-file-alt"></i></a> </strong></p>
+				</div>
+				<img src="photos/profil.jpg" id="photo-profil" width="390" height="480">
+			</div>
+
+			<div class="colonne-droite">
+				<img src="photos/logos.png" width="400" height="470" id="photo-logo">
+				<div class="text-40">
+					<h1><strong>SKILLS :</strong></h1>
+					<hr class="ligne-bleue">
+					<p> Python : <em> experienced </em> </p>
+					<p> Excel : <em> experienced </em> </p>
+					<p> R, SQL : <em> basis </em> </p>
+					<p> Tableau, Dataiku </p>
+					<p> HTML, CSS </p>
+				</div>
+			</div>
+		</div>
+
+		<span class="anchor" id="my-projects"></span>
+		<div class="container-projects">
+			
+			<div class="projects-title">
+				<h1><strong>MY PROJECTS :</strong></h1>
+				<hr class="ligne-bleue ligne-40">
+			</div>
+
+			<div class="projects-title">
+				<h2><strong>Data analysis with python </strong><img src="photos/python.png" width="70" height="70"></h2>
+			</div>
+
+
+      <div class="card-project">          
+        <div class="face face1">
+        	<div class="content">
+            <img src="photos/Hansolo.jpg" width="480" height="280">
+            <h3>Who shot first?</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+           <p>An analysis on Star Wars data, focused on the question "Who shot First?"</p>
+           <div class="btns">
+	           <a href="media/Star_Wars_Data_Analysis.pdf">Read More</a>
+	           <a href="https://github.com/Guillaume-ds/Star_Wars_Analysis">See the code</a>
+           </div>        
+          </div>
+        </div>
+      </div>
+      
+      <div class="card-project">
+        <div class="face face1">
+          <div class="content">
+	          <img src="photos/vgs.jpg" width="480" height="280">
+	          <h3>Best selling video games</h3>
+        	</div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>This project aims to create various KPI for the video game industry based on a data set from Kaggle </p>
+            <div class="btns">
+              <a href="media/Video_Game_Analysis.pdf">Read More</a>
+              <a href="https://github.com/Guillaume-ds/Video_Game_Analysis">See the code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-project">
+        <div class="face face1">
+          <div class="content">
+            <img src="photos/TGV.jpg" width="480" height="280">
+            <h3>Delays of the french trains</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>I am still working on this project</p>
+            <div class="btns">
+          	  <a href="#">Read More</a>
+          	</div>
+          </div>
+        </div>
+      </div>
+
+
+     	<div class="projects-title">
+				<h2><strong>Web sites </strong><img src="photos/@.jpg" width="70" height="70"></h2>
+			</div>
+
+      <div class="card-project">          
+        <div class="face face1">
+        	<div class="content">
+            <img src="photos/banner.jpg" width="480" height="280">
+            <h3>Sailing Club Web site</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+           <p>A website for the HEC sailing club</p>
+           <div class="btns">
+	           <a href="https://guillaume-ds.github.io/Club_Voile_HEC/">See the site</a>
+	           <a href="https://github.com/Guillaume-ds/Club_Voile_HEC">See the code</a>
+           </div>        
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+	</content>
+
+	<footer>
+		<h1 id="contact-me"> <strong>CONTACT ME :</strong></h1> 
+		<br>
+		<div class="card-foot">
+			<div class="sub-foot">
+				<strong>
+				guillaume.de-surville@hec.edu
+				<br><br>
+				+33 06 72 4 08 23
+				</strong>
+			</div>
+			<div class="sub-foot">
+				<a href="https://github.com/Guillaume-ds"> <i class="fab fa-github-square"></i></a>
+			</div>
+			<div class="sub-foot">
+				<a href="https://www.linkedin.com/in/guillaume-de-surville/"> <i class="fab fa-linkedin"></i></a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
