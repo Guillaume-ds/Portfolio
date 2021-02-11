@@ -47,7 +47,7 @@
 }
 
 .container-projects .card-project:hover .face.face1{
-    background: rgba(50,50,130,1);
+    background: linear-gradient(rgba(51,51,51,1), rgba(30,30,110,1) 80% );
     transform: translateY(0);
 }
 
