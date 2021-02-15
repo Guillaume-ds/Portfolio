@@ -2,12 +2,20 @@
     .container-projects .card-project .face{
       width: 500px;        
     }
+    .container-projects .card-project .face.face1 .content img{
+      max-width: 480px;
+      margin:10px;
+    }
 }
 
 @media(max-width: 599px){
     .container-projects .card-project .face{
       width: 400px;        
     }
+    .container-projects .card-project .face.face1 .content img{
+      max-width: 380px;
+      margin:2px auto;
+  }
 }
 
 
@@ -74,10 +82,7 @@
     opacity: 1;
 }
 
-.container-projects .card-project .face.face1 .content img{
-    max-width: 480px;
-    margin:10px;
-}
+
 
 .container-projects .card-project .face.face1 .content h3{
     margin: 5px;
