@@ -116,6 +116,7 @@
   transform: rotateY(180deg);
   box-shadow: 4px 5px 9px rgba(140,140,140,0.8);
   padding-top: 10px;
+  overflow-y: scroll;
 }
 
 
