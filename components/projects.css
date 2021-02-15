@@ -46,7 +46,6 @@
 }
 
 .container-projects .card-project .face{
-    width: 500px;
     transition: 0.5s;
     border-radius: 5px;
 }
